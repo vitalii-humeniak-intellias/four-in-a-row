@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/four-in-a-row/static/css/main.e6bb0fd0.chunk.css",
+    "main.js": "/four-in-a-row/static/js/main.62e5b0d1.chunk.js",
+    "main.js.map": "/four-in-a-row/static/js/main.62e5b0d1.chunk.js.map",
+    "runtime-main.js": "/four-in-a-row/static/js/runtime-main.a79243b2.js",
+    "runtime-main.js.map": "/four-in-a-row/static/js/runtime-main.a79243b2.js.map",
+    "static/js/2.133c8109.chunk.js": "/four-in-a-row/static/js/2.133c8109.chunk.js",
+    "static/js/2.133c8109.chunk.js.map": "/four-in-a-row/static/js/2.133c8109.chunk.js.map",
+    "static/js/3.1b55dd9c.chunk.js": "/four-in-a-row/static/js/3.1b55dd9c.chunk.js",
+    "static/js/3.1b55dd9c.chunk.js.map": "/four-in-a-row/static/js/3.1b55dd9c.chunk.js.map",
+    "index.html": "/four-in-a-row/index.html",
+    "static/css/main.e6bb0fd0.chunk.css.map": "/four-in-a-row/static/css/main.e6bb0fd0.chunk.css.map",
+    "static/js/2.133c8109.chunk.js.LICENSE.txt": "/four-in-a-row/static/js/2.133c8109.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a79243b2.js",
+    "static/js/2.133c8109.chunk.js",
+    "static/css/main.e6bb0fd0.chunk.css",
+    "static/js/main.62e5b0d1.chunk.js"
+  ]
+}
