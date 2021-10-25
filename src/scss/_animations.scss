@@ -1,0 +1,27 @@
+@keyframes fall {
+  from {
+    transform: translateY(-600px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes flick {
+  from {
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0.5;
+  }
+}
+
+.animation-flick {
+  animation: flick 0.4s infinite;
+}

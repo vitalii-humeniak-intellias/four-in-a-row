@@ -1,0 +1,52 @@
+.board {
+  display: flex;
+
+  &_front {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__col {
+    @extend .col;
+    position: relative;
+    cursor: pointer;
+
+    &_filled {
+      pointer-events: none;
+    }
+  }
+
+  &__item {
+    padding: 8%;
+  }
+
+  &_front &__item {
+    overflow: hidden;
+    padding: 16%;
+  }
+
+  &__hole {
+    transition: outline-color 0.4s;
+    padding-bottom: 100%;
+    border-radius: 50%;
+    outline: 100px solid $gray-700;
+  }
+
+  &__col:hover &__hole {
+    outline-color: $gray-600;
+  }
+
+  &__coin {
+    padding-bottom: 100%;
+    border-radius: 50%;
+    background: currentColor;
+    color: transparent;
+
+    &_dropped {
+      animation: fall 0.4s ease;
+    }
+  }
+}
